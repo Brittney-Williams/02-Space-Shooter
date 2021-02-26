@@ -12,5 +12,5 @@ func _physics_process(_delta):
 
 
 func _on_enemy_bullet_body_entered(body):
-	body.die()
+	body.die(0)
 	queue_free()
